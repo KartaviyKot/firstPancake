@@ -10,9 +10,12 @@
 // let answer = userName == "Faria" ? "Access is allowed" : "Access is denied";
 // alert(answer);
 
-
 let userData = {
-    name: "Ivan",
-    age: 34,
+  name: "Ivan",
+  age: 34,
 };
 console.log(typeof userData);
+
+let number = 142n;
+
+console.log(number ** 60n);
