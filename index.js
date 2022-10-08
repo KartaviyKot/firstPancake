@@ -1,21 +1,27 @@
-// console.log("hi");
+const AB = 25;
+const CD = 26;
+const EF = 32;
 
-// let userName = prompt("Введите ваше имя", "имя");
-// let age = 57;
+console.log(Math.max(AB, CD, EF));
 
-// let userData = `Name of the user is ${userName}, and the age of the user is ${age}.`;
+if (AB > CD) {
+  AB > EF ? console.log(AB) : console.log(EF);
+} else {
+  CD > EF ? console.log(CD) : console.log(EF);
+}
 
-// console.log(userData);
+let userRole = "manager";
 
-// let answer = userName == "Faria" ? "Access is allowed" : "Access is denied";
-// alert(answer);
-
-// let userData = {
-//   name: "Ivan",
-//   age: 34,
-// };
-// console.log(typeof userData);
-
-let number = 142n;
-
-console.log(number ** 60n);
+switch (userRole) {
+  case "admin":
+    console.log("Hello Admin!");
+    break;
+  case "manager":
+    console.log("Hello Manager");
+    break;
+  case "user":
+    console.log("Hello User");
+    break;
+  default:
+    console.log("Write down your login please");
+}
