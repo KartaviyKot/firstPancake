@@ -44,23 +44,23 @@
 
 // console.log(daysCount);
 
-const yearFrom = 1800;
-const yearTo = 2022;
-const yearFirstTimeToTheSpace = 1961;
-
-let yearTest1 = yearFrom;
-let iterationsQuantityTest1 = 0;
-
-while (yearTest1 < yearFirstTimeToTheSpace) {
-  iterationsQuantityTest1++;
-  yearTest1++;
-}
-console.log(`Первый полёт человека в космос состоялся в ${yearFirstTimeToTheSpace} году.`);
-console.log(`Количество итераций до первого полёта в космос: ${iterationsQuantityTest1} \n`);
-
-//----------------------------------------------------------------------------------
 // const yearFrom = 1800;
 // const yearTo = 2022;
+// const yearFirstTimeToTheSpace = 1961;
+
+// let yearTest1 = yearTo;
+// let iterationsQuantityTest1 = 0;
+
+// while (yearTest1 > yearFirstTimeToTheSpace) {
+//   iterationsQuantityTest1++;
+//   yearTest1--;
+// }
+// console.log(`Первый полёт человека в космос состоялся в ${yearFirstTimeToTheSpace} году.`);
+// console.log(`Количество итераций до первого полёта в космос: ${iterationsQuantityTest1} \n`);
+
+//----------------------------------------------------------------------------------
+const yearFrom = 1800;
+const yearTo = 2022;
 
 let yearTest2 = yearFrom;
 let iterationsCount2 = 0;
